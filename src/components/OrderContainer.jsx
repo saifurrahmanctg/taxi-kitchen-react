@@ -1,6 +1,6 @@
 import React, { use, useState } from "react";
 import OrderCard from "./OrderCard";
-import { BookAlert, TriangleAlert } from "lucide-react";
+import { BookAlert, TriangleAlert, UtensilsCrossed } from "lucide-react";
 import { toast } from "react-toastify";
 import OrderStats from "./OrderStats";
 import CookingCard from "./CookingCard";
@@ -105,7 +105,7 @@ const OrderContainer = ({ orderPromise }) => {
             </h2>
             {ready.length === 0 && (
               <div className="rounded-xl p-5 shadow bg-green-50 hover:shadow-md transition text-gray-400">
-                <TriangleAlert className="mx-auto mb-4" size={60} />
+                <UtensilsCrossed className="mx-auto mb-4" size={60} />
                 <p className=" text-center italic">
                   No orders are ready to serve currently.
                 </p>

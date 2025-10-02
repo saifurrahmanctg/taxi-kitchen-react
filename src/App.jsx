@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <header className=" sticky top-0 bg-[#ffffff] opacity-95 shadow z-10">
-        <Navbar></Navbar>
+        <Navbar> </Navbar>
       </header>
       <section className="main-banner">
         <Banner></Banner>
