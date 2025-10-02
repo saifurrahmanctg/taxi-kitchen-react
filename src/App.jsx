@@ -5,7 +5,7 @@ import Banner from "./components/Banner";
 import { Suspense } from "react";
 import OrderContainer from "./components/OrderContainer";
 
-const orderData = fetch("/public/orders.json").then((res) => res.json());
+const orderData = fetch("/orders.json").then((res) => res.json());
 
 function App() {
   const orderPromise = orderData;
