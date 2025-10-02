@@ -1,3 +1,5 @@
+import React from "react";
+
 const CookingCard = ({ order, handleCooking }) => {
   return (
     <div className="cooking-bg rounded-xl p-5 shadow hover:shadow-lg">

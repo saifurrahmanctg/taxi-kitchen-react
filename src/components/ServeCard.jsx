@@ -1,3 +1,4 @@
+import React from "react";
 import { HandPlatter } from "lucide-react";
 
 const ServeCard = ({ order, handleServed }) => {

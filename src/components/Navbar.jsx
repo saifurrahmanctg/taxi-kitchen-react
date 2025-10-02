@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-
+import React from "react";
 const Navbar = () => {
   return (
     <div className="container py-5 content-box flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-5">

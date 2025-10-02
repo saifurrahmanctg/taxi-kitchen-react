@@ -1,4 +1,5 @@
 import { UtensilsCrossed } from "lucide-react";
+import React from "react";
 
 const OrderCard = ({ order, handleOrderClick }) => {
   const { order_no, order_title, table_no, quantity, special_instruction } =
