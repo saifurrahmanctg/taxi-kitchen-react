@@ -12,6 +12,13 @@
   margin: 0 auto;
 }
 
+.banner-bg {
+  background-image: url("./assets/title-bg.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .cooking-bg {
   background: linear-gradient(#ffffff90, #fcb700), url("./assets/cook-bg.gif");
 }
