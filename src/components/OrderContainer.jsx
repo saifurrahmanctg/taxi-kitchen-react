@@ -56,7 +56,7 @@ const OrderContainer = ({ orderPromise }) => {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
         {/* Order Container Content */}
         <div className="md:col-span-7 space-y-5">
-          <h2 className="text-3xl font-bold w-fit p-2 border-b-3 rounded-lg border-[#fcb802]">
+          <h2 className="text-3xl font-bold w-fit p-2 border-b-2 rounded-lg border-[#fcb802]">
             Current Orders
           </h2>
           {orders.length === 0 && (
@@ -78,7 +78,7 @@ const OrderContainer = ({ orderPromise }) => {
         <div className="md:col-span-5 space-y-5">
           {/* Order status - Cooking */}
           <div className="space-y-5">
-            <h2 className="text-3xl font-bold w-fit p-2 border-b-3 rounded-lg border-[#fcb802]">
+            <h2 className="text-3xl font-bold w-fit p-2 border-b-2 rounded-lg border-[#fcb802]">
               Cooking
             </h2>
             {cooking.length === 0 && (
@@ -100,7 +100,7 @@ const OrderContainer = ({ orderPromise }) => {
           </div>
           {/* Order status - Ready */}
           <div className="space-y-5">
-            <h2 className="text-3xl font-bold w-fit p-2 border-b-3 rounded-lg border-[#fcb802]">
+            <h2 className="text-3xl font-bold w-fit p-2 border-b-2 rounded-lg border-[#fcb802]">
               Ready to Serve
             </h2>
             {ready.length === 0 && (

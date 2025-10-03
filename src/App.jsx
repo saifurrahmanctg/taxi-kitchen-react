@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import { Suspense } from "react";
 import OrderContainer from "./components/OrderContainer";
+import Footer from "./components/Footer";
 
 const orderData = fetch("/orders.json").then((res) => res.json());
 
@@ -21,10 +22,18 @@ function App() {
 
       <section className="container py-5">
         <Suspense
-          fallback={<h2 className="text-3xl text-center">Loading...</h2>}
+          fallback={
+            <div className="text-center mt-6">
+              <span className="loading loading-spinner text-warning"></span>
+            </div>
+          }
         >
           <OrderContainer orderPromise={orderPromise}></OrderContainer>
         </Suspense>
+      </section>
+
+      <section className="mt-10">
+        <Footer></Footer>
       </section>
 
       <ToastContainer

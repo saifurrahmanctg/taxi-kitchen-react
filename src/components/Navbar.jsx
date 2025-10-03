@@ -65,12 +65,12 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-md dropdown-content bg-base-100 rounded-box z-1 mt-3 w-40 p-2 shadow-md"
+              className="menu menu-md dropdown-content bg-base-100 rounded-box z-10 mt-3 w-40 p-2 shadow-md"
             >
               <li className="mb-2">
                 <a
                   href="#"
-                  className="border-b-3 rounded-lg border-[#fcb802] p-1 duration-200 hover:font-bold"
+                  className="border-b-2 rounded-lg border-[#fcb802] p-1 duration-200 hover:font-bold"
                 >
                   Orders
                 </a>
@@ -78,7 +78,7 @@ const Navbar = () => {
               <li className="mb-2">
                 <a
                   href="#"
-                  className="border-b-3 rounded-lg border-[#fcb802] p-1 duration-200 hover:font-bold"
+                  className="border-b-2 rounded-lg border-[#fcb802] p-1 duration-200 hover:font-bold"
                 >
                   Foods
                 </a>
@@ -86,7 +86,7 @@ const Navbar = () => {
               <li className="mb-2">
                 <a
                   href="#"
-                  className="border-b-3 rounded-lg border-[#fcb802] p-1 duration-200 hover:font-bold"
+                  className="border-b-2 rounded-lg border-[#fcb802] p-1 duration-200 hover:font-bold"
                 >
                   Tables
                 </a>
@@ -94,7 +94,7 @@ const Navbar = () => {
               <li className="mb-2">
                 <a
                   href="#"
-                  className="border-b-3 rounded-lg border-[#fcb802] p-1 duration-200 hover:font-bold"
+                  className="border-b-2 rounded-lg border-[#fcb802] p-1 duration-200 hover:font-bold"
                 >
                   Logout
                 </a>

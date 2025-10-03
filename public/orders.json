@@ -61,5 +61,50 @@
     "quantity": 1,
     "special_instruction": "Use fresh romaine lettuce, add extra parmesan cheese, keep the croutons crunchy, and serve the dressing on the side.",
     "waiterId": "W-03"
+  },
+  {
+    "id": 8,
+    "order_no": "ORD-1008",
+    "order_title": "Veggie Pizza",
+    "table_no": "09",
+    "quantity": 1,
+    "special_instruction": "Bake the veggie pizza with extra cheese, thin crust, mushrooms evenly spread, and ensure it is sliced into eight perfect equal portions.",
+    "waiterId": "W-04"
+  },
+  {
+    "id": 9,
+    "order_no": "ORD-1009",
+    "order_title": "Chicken Nuggets",
+    "table_no": "09",
+    "quantity": 3,
+    "special_instruction": "Serve the chicken nuggets with barbecue sauce, ensure they are crispy, hot, golden brown, and arrange neatly on the plate for presentation.",
+    "waiterId": "W-01"
+  },
+  {
+    "id": 10,
+    "order_no": "ORD-1010",
+    "order_title": "Grilled Chicken Sandwich",
+    "table_no": "10",
+    "quantity": 1,
+    "special_instruction": "Grill the chicken sandwich without mayonnaise, toast the bread lightly, add lettuce and tomato, and cut the sandwich diagonally before serving immediately.",
+    "waiterId": "W-02"
+  },
+  {
+    "id": 11,
+    "order_no": "ORD-1011",
+    "order_title": "Pepperoni Pizza",
+    "table_no": "11",
+    "quantity": 2,
+    "special_instruction": "Make the pepperoni pizza with thin crust, extra cheese, spread pepperoni evenly, bake until golden, and slice into eight equal pieces consistently.",
+    "waiterId": "W-03"
+  },
+  {
+    "id": 12,
+    "order_no": "ORD-1012",
+    "order_title": "Ice Cream Sundae",
+    "table_no": "12",
+    "quantity": 2,
+    "special_instruction": "Make the ice cream sundae with vanilla scoops, caramel topping, whipped cream, cherries, sprinkle nuts, and ensure it is served in chilled bowl.",
+    "waiterId": "W-04"
   }
 ]
